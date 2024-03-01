@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Virtualización</title>
+</head>
+<body>
+    <div>
+    <h2 class="title">¿Qué es la virtualización?</h2>
+    <img src="../img/2.jpg" alt="img-2" class="img">
+    <p>Es una tecnología que te permite crear versiones virtuales de recursos físicos como servidores,
+         almacenamiento, redes y otras máquinas. El software de virtualización imita las funciones del 
+         hardware físico para ejecutar varias máquinas virtuales (VM) al mismo tiempo en una única máquina física.
+         En otras palabras, la virtualización te permite dividir un solo equipo físico en varios equipos virtuales
+        independientes, cada uno con su propio sistema operativo y aplicaciones.</p>
+        <h4>Beneficios de la virtualización:</h4>
+        <p>
+            Mayor eficiencia: Aprovechas mejor los recursos de hardware, ya que puedes ejecutar varios sistemas operativos en una sola máquina.
+            Reducción de costos: Ahorras en la compra de hardware, ya que no necesitas un equipo físico para cada sistema operativo.
+            Mayor flexibilidad: Puedes crear y eliminar máquinas virtuales fácilmente, lo que te permite adaptarte rápidamente a las necesidades cambiantes de tu negocio.
+            Mayor seguridad: Puedes aislar diferentes sistemas operativos y aplicaciones entre sí, lo que mejora la seguridad de tu entorno informático.
+            Facilidad de administración: Puedes administrar todas tus máquinas virtuales desde una única consola, lo que simplifica la administración de tu infraestructura informática.
+        </p>
+        <h4>Tipos de virtualización:</h4>
+        <p>
+            Virtualización de servidores: Es el tipo de virtualización más común. Te permite crear máquinas virtuales a partir de servidores físicos.
+            Virtualización de almacenamiento: Te permite crear volúmenes de almacenamiento virtuales a partir de discos duros físicos.
+            Virtualización de redes: Te permite crear redes virtuales a partir de redes físicas.
+            Virtualización de aplicaciones: Te permite ejecutar aplicaciones en un entorno virtualizado, independientemente del sistema operativo del equipo físico.
+        </p>
+        <h4>Ejemplos de software de virtualización:</h4>
+        <p>
+            VMware
+            Hyper-V
+            VirtualBox
+            KVM
+            Proxmox VE
+        </p>
+    </div>
+        <div>
+        <h2 class="title">¿Cómo funciona la virtualización?</h2>
+        <p>La virtualización funciona mediante un software especial llamado hipervisor. El hipervisor se encarga
+             de crear una capa de abstracción entre el hardware físico y el software que se ejecuta en él.</p>
+        <h4>El proceso de virtualización se puede dividir en los siguientes pasos:</h4>
+        <p>
+            Se instala el hipervisor en el equipo físico.
+            Se crea una máquina virtual en el hipervisor.
+            Se instala el sistema operativo en la máquina virtual.
+            Se instalan las aplicaciones en la máquina virtual.
+        </p>
+        <h4>El hipervisor es responsable de:</h4>
+        <p>
+            Administrar los recursos del hardware y asignarlos a las máquinas virtuales.
+            Aislar las máquinas virtuales entre sí.
+            Proporcionar un entorno virtualizado que sea compatible con el sistema operativo y las aplicaciones que se ejecutan en la máquina virtual.
+        </p>
+        </div>
+        <div>
+        <h2 class="title">Ejemplos</h2>
+        <h4> Entornos de desarrollo:</h4>
+        <p>
+            Permite a los desarrolladores probar diferentes sistemas operativos y aplicaciones sin necesidad de hardware físico adicional.
+            Facilita la creación de entornos de desarrollo aislados para cada proyecto.
+        </p>
+        <h4>Pruebas de software:</h4>
+        <p>
+            Se pueden crear clones virtuales de un sistema operativo para realizar pruebas exhaustivas de software sin afectar al sistema original.
+            Permite probar software en diferentes sistemas operativos y configuraciones de hardware.
+        </p>
+        <h4>Implementación de servidores:</h4>
+        <p>
+            Permite consolidar varios servidores físicos en un solo servidor virtual, lo que reduce costos y aumenta la eficiencia.
+            Facilita la escalabilidad y la migración de servidores.
+        </p>
+        <h4>Despliegue de aplicaciones:</h4>
+        <p>
+            Permite crear y eliminar fácilmente aplicaciones virtuales, lo que facilita la implementación y el mantenimiento de aplicaciones.
+            Permite aislar aplicaciones entre sí para mejorar la seguridad y la estabilidad.
+        </p>
+        <h4>Educación y formación:</h4>
+        <p>
+            Permite crear entornos virtuales seguros para que los estudiantes experimenten con diferentes sistemas operativos y aplicaciones.
+            Facilita la creación de laboratorios virtuales para la enseñanza de informática.
+        </p>
+        </div>
+        <div>
+        <h2 class="title">Ventajas y desventajas</h2>
+        <h4>Ventajas de la virtualización de servidores:</h4>
+        <p>
+            Reducción de costos:
+                Menor inversión en hardware físico.
+                Optimización del uso de recursos como CPU, memoria y almacenamiento.
+                Disminución del consumo de energía.
+            Mayor eficiencia:
+                Consolidación de múltiples servidores en un solo equipo físico.
+                Aumento de la densidad de servidores.
+                Agilización de la provisión y el aprovisionamiento de servidores.
+            Flexibilidad y escalabilidad:
+                Creación y eliminación rápida de servidores virtuales según las necesidades.
+                Facilidad para escalar la infraestructura de TI.
+                Adaptación a cambios en la demanda de recursos.
+            Mayor disponibilidad y confiabilidad:
+                Menor tiempo de inactividad gracias a la facilidad de migración en caso de fallo.
+                Implementación de estrategias de alta disponibilidad y recuperación ante desastres.
+                Mayor tolerancia a fallos.
+            Seguridad mejorada:
+                Aislamiento de las máquinas virtuales entre sí.
+                Implementación de medidas de seguridad específicas para cada máquina virtual.
+                Mayor control y gestión de la seguridad.
+            Facilidad de administración:
+                Administración centralizada de todas las máquinas virtuales desde una única consola.
+                Automatización de tareas de administración.
+                Simplificación de la gestión de la infraestructura de TI.
+        </p>
+        <h4>Desventajas de la virtualización de servidores:</h4>
+        <p>
+            Costo inicial de la licencia del software de virtualización.
+            Curva de aprendizaje para la administración de servidores virtuales.
+            Potencial impacto en el rendimiento del servidor físico.
+            Mayor complejidad en la gestión de la infraestructura virtual.
+            Riesgo de fallos en el hipervisor que podrían afectar a todas las máquinas virtuales.
+            Dependencia de la infraestructura de red y almacenamiento.
+        </p>
+        </div>
+        <div>
+        <h2 class="title">Gráfico</h2>
+        <img src="../img/3.png" alt="img-3" class="img">
+        </div>
+        <div>
+        <h2 class="title">¿Por qué es importante conocer el concepto y cómo se puede aplicar la virtualización como
+            estrategia para optimizar los recursos físicos en el ambiente laboral y/o personal?
+        </h2>
+        <p>1. Maximización de recursos:
+
+            Permite aprovechar al máximo los recursos físicos disponibles, como CPU, memoria y almacenamiento.
+            Se pueden ejecutar múltiples sistemas operativos y aplicaciones en un solo equipo físico.
+            Reduce la necesidad de adquirir hardware nuevo, lo que genera un ahorro significativo en costos.
+        
+        2. Mayor eficiencia y productividad:
+        
+            Agiliza la provisión y el aprovisionamiento de recursos informáticos.
+            Simplifica la administración de la infraestructura IT.
+            Permite escalar la infraestructura de forma rápida y flexible para adaptarla a las necesidades cambiantes.
+        
+        3. Mayor disponibilidad y confiabilidad:
+        
+            Minimiza el tiempo de inactividad gracias a la facilidad de migración en caso de fallos.
+            Facilita la implementación de estrategias de alta disponibilidad y recuperación ante desastres.
+            Reduce el riesgo de pérdida de datos gracias a la posibilidad de crear copias de seguridad y snapshots.
+        
+        4. Mayor seguridad:
+        
+            Permite aislar diferentes sistemas operativos y aplicaciones entre sí.
+            Facilita la implementación de medidas de seguridad específicas para cada máquina virtual.
+            Reduce el riesgo de intrusiones y ataques cibernéticos.
+        
+        5. Flexibilidad y escalabilidad:
+        
+            Permite crear y eliminar máquinas virtuales de forma rápida y sencilla.
+            Facilita la adaptación a cambios en la demanda de recursos.
+            Permite escalar la infraestructura de forma horizontal o vertical según las necesidades.
+        
+        6. Beneficios en el ámbito personal:
+        
+            Permite ejecutar diferentes sistemas operativos en un solo equipo.
+            Facilita la creación de entornos de prueba para software nuevo.
+            Permite ahorrar espacio y energía al reducir la cantidad de equipos físicos necesarios.
+        </p>
+        </div>
+    </div>
+</body>
+</html>
